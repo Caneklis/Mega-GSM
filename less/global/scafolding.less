@@ -1,0 +1,134 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-style: normal;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  font-family: 'PT Sans', Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+iframe {
+  border: 0;
+  frameborder: 0;
+}
+
+
+video {
+  position: absolute;
+  /*top: 50%;*/
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%);
+  /*transform: translateX(-50%) translateY(-50%);*/
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+  filter: opacity(.4);
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f7600e;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;  
+  white-space: nowrap;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: inherit;
+  border-width: 0px;
+  margin: 0px;
+  padding: 12px 60px;
+  letter-spacing: 0px;
+
+  opacity: 1;
+  font-style: normal;
+  
+  &:hover {
+    background-color: fade(@sec-color, 50%);
+    transition: 0.3s;
+  }
+}
+
+.down-btn {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  margin-left: -21px;
+  transform: rotate(90deg);
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+  background-image: url('../img/arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 0;
+  
+}
+
+/** {
+  outline: @outline;
+}*/

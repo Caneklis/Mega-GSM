@@ -1,0 +1,44 @@
+.action {
+  padding: 40px 0;
+  background-image: url('../img/action-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.action__text {  
+  margin-bottom: 20px;
+  color: #fff;
+  
+  b {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+}
+
+@media @tablet-widths {
+  
+  .action {
+    padding-bottom: 20px;
+  }
+  
+  .action__text {
+    width: 50%;
+    
+    b {
+      font-size: 24px;
+      line-height: 40px;
+    }    
+  }
+}
+
+@media @desktop-widths {
+  .action {
+    padding: 60px 0 42px 0;
+  }
+  
+  .action__text {
+    width: auto;
+  }
+}

@@ -1,0 +1,44 @@
+.works {
+  width: 100%;
+  position: relative;
+}
+
+.works__link--hidden {
+  display: none;
+}
+
+.works__link {
+  &:hover .works__link--hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+  }
+}
+
+.works__picture {
+  margin-bottom: 30px;
+}
+
+.works__picture img {
+  display: block;
+}
+
+@media @desktop-widths {
+
+  .works {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .works__picture {
+    width: 30%;
+  }
+
+
+
+}
+

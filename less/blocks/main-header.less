@@ -1,0 +1,127 @@
+.main-header {
+  padding-bottom: 85px;
+  background-image: url('../img/header-bg-small.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  
+  text-align: center;
+}
+
+.main-header__title {
+  margin-bottom: 0;
+  font-size: 46.8px;
+  line-height: 49.18px;
+  font-weight: 800;
+  white-space: normal;
+  color: #fff;
+  text-transform: uppercase;
+  
+  &--size {
+    font-size: 30px;
+    line-height: 0;
+  }
+  
+  &--size-small {
+    font-size: 23px;
+    line-height: 0;
+  }
+  
+  &--color {
+    color: #f7600e;
+  }
+}
+
+.main-header__text {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-header__btn {
+  margin-bottom: 26px;
+  background-color: transparent;
+  border: 1px solid #565a61;
+}
+
+@media @tablet-widths {
+  .main-header {
+    background-image: url('../img/header-bg-medium.jpg');
+    background-repeat: no-repeat;
+  background-position: top center;
+    background-size: cover;
+  }
+  
+  .main-header__title {
+    order: 3;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 55px;
+    line-height: 36px;
+    
+    &--size {
+      font-size: 31px;
+    }
+    
+    &--size-small {
+      font-size: 31px;
+    }
+  }
+  
+  
+  .main-header__text {
+    order: 4;
+    width: 100%;
+    margin-bottom: 45px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .main-header__btn {
+    order: 5;
+    display: block;
+    margin-right: 500px;
+    margin-bottom: 35px;
+    padding: 11px 25px;
+    white-space: nowrap;
+  }
+}
+
+@media @desktop-widths {
+  .main-header {
+    background-image: url('../img/header-bg-large.jpg');
+    background-repeat: no-repeat;
+  background-position: top center;
+    background-size: cover;
+  }
+  
+  .main-header__title {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-right: 285px;
+    font-size: 70px;
+    line-height: 40px;
+    text-align: left;
+    
+    &--size {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    
+    &--size-small {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+  
+  .main-header__btn {
+    margin-left: 0;
+    margin-right: 530px;
+  }
+  
+  .slider__control {
+    padding: 15px 32px 26px 50px;
+  }
+}

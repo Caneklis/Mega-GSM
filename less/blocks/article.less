@@ -1,0 +1,98 @@
+.article {
+  padding: 120px 0;
+  /*background-image: url('../img/Layer5.jpg');
+  background-repeat: repeat;
+  background-size: cover;*/
+  background: -moz-linear-gradient(bottom, #7d7e7d 0%, #0e0e0e 100%);
+  
+  background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(bottom, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(bottom, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to top, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+  
+  
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+
+  &--works {
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+     
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 100%;
+      background-image: url('../img/bottom_row_ripped.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      min-height: 133px;
+      top: -132px;
+    }
+  }
+  
+  &--about {
+    position: relative;
+    background-image: url('../img/bg_pattern.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /*background-size: cover;*/
+    color: #fff;
+    text-align: center;
+    
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 100%;
+      background-image: url('../img/bottom_row_ripped.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      min-height: 133px;
+      transform: rotate(180deg);
+      top: 367px;
+    }
+  }
+}
+
+.article__title {
+  position: relative;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    display: block;
+    width: 3%;
+    height: 5px;
+    background-color: #fff;
+    transform: translatex(-50%);
+  }
+
+  &--works {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -15px;
+      display: block;
+      width: 3%;
+      height: 5px;
+      background-color: #000;
+      transform: translatex(-50%);
+    }
+  }
+}

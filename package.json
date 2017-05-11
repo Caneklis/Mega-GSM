@@ -7,10 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Caneklis",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Caneklis/Mega-GSM.git"
-},
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "0.0.7",
     "autoprefixer": "6.4.1",

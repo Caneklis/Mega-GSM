@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <title>Мастерская по ремонту сотовых телефонов</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  
-  <header class="main-header">
+    
+  <header id="main-header" class="main-header-pict-1">
     <div class="container  container--header">
       <nav class="main-nav  main-nav--closed">
         <button class="main-nav__toggle"></button>
@@ -20,17 +21,17 @@
           <li class="main-nav__item"><a href="#contacts" class="main-nav__link">Контакты</a></li>
         </ul>
       </nav>
-      <div class="logo"><img src="img/logo.png" alt="Mega-GSM" width="172" height="161"></div>
+      <div class="logo"><img src="img/newlogo.png" alt="Mega-GSM" width="172" height="161"></div>
       <h1 class="main-header__title">Мастерская по <span class="main-header__title--color">ремонту</span><span class="main-header__title--size"> и обслуживанию</span> <span class="main-header__title--size-small">мобильных <span class="main-header__title--color">телефонов</span></span></h1>
       <p class="main-header__text">Мы делаем качественно быстро и с гарантией</p>
-      <a href="#" class="btn main-header__btn">Оставить заявку</a>
+      <a href="#contacts" class="btn main-header__btn">Оставить заявку</a>
       <div class="slider">
         <div class="slider__control">
           <p class="slider__text">1/6</p>
-          <button class="slider__btn  slider__btn--left"></button>
-          <button class="slider__btn"></button>
+          <button class="slider__btn slider__btn--left"></button>
+          <button class="slider__btn slider__btn--right"></button>
         </div>
-        <div class="slider__picture"></div>
+        <div id="slider__picture" class="slider__picture_num_2"></div>
       </div>
       <a href="#services" class="btn down-btn">Вниз</a>
     </div>
@@ -86,8 +87,8 @@
           <div class="gallery__repair">
             <img src="img/1-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">iPhone 6: Замена дисплея</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 2500 р.</p>
             </div>
           </div>
         </li>
@@ -96,8 +97,8 @@
           <div class="gallery__repair">
             <img src="img/2-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">Samsung S4: Замена материнской платы</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 4500 р.</p>
             </div>
           </div>
         </li>
@@ -106,8 +107,8 @@
           <div class="gallery__repair">
             <img src="img/3-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">iPhone 5s: Замена аккумулятора</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 1500 р.</p>
             </div>
           </div>
         </li>
@@ -116,8 +117,8 @@
           <div class="gallery__repair">
             <img src="img/4-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">Sony Xperia Z: Замена задней крышки</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 800 р.</p>
             </div>
           </div>
         </li>
@@ -126,8 +127,8 @@
           <div class="gallery__repair">
             <img src="img/5-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">iPad 3: Замена сенсорного стекла</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 2000 р.</p>
             </div>
             </div>
         </li>
@@ -136,8 +137,8 @@
           <div class="gallery__repair">
             <img src="img/6-1.jpg" alt="" width="512" height="384">
             <div class="gallery__description">
-              <p class="gallery__text">Замена дисплея на самом лучшем телефоне в мире</p>
-              <p class="gallery__text  gallery__text--description">Фото после завершения работы</p>
+              <p class="gallery__text">Samsung 7 Edge: Замена дисплея</p>
+              <p class="gallery__text  gallery__text--description">Итоговая стоимость: 22500 р.</p>
             </div>
           </div>
         </li>
@@ -168,8 +169,8 @@
         <div class="contact__lists">
           <ul class="contact__list">
           <li class="contact__item  contact__item--marker">г.Москва, Пятницкое Шоссе, вл. 18, пав. 85 (ТК Митинский радиорынок)</li>
-          <li class="contact__item  contact__item--phone">+7 499 394-47-88<br>
-          +7 926 468-55-88</li>
+          <li class="contact__item  contact__item--phone"><a href="tel:+74993944788">+7 499 394-47-88</a><br>
+          <a href="tel:+79264685588">+7 926 468-55-88</a></li>
           <li class="contact__item  contact__item--calendar">Ежедневно<br>
           с 10:00 до 19:00</li>
         </ul>
@@ -202,8 +203,35 @@
     </div>    
   </footer>
   
-  <script src="js/main.js" async></script>
+  
   <script src="js/jquery-3.2.1.min.js" async></script>
   <script src="js/smooth.js" async></script>
+  <script src="js/main.js" async></script>
+  <script>
+    var pict_numb = 1;
+    function get_prev_numb(numb) {
+      return numb == 1 ? 6 : (numb - 1)
+    }
+    function get_next_numb(numb) {
+      return numb == 6 ? 1 : (numb + 1)
+    }
+    function slider_change(get_func) {
+      pict_numb = get_func(pict_numb);
+      $('.slider__text').text(pict_numb + '/6');
+      $('#main-header').removeClass();
+      $('#main-header ').addClass('main-header-pict-' + pict_numb);
+      $('#slider__picture').removeClass();
+      $('#slider__picture').addClass('slider__picture_num_' + get_func(pict_numb));
+    }
+    $(document).ready(function(){
+      $('.slider__btn--left').click(function(){
+        slider_change(get_prev_numb);
+      });
+      $('.slider__btn--right').click(function(){
+        slider_change(get_next_numb);
+      });
+    });
+  </script>
+  
 </body>
 </html>

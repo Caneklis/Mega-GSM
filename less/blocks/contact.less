@@ -1,6 +1,6 @@
 .contact {
   padding: 75px 0 36px 0;
-  background-image: url('../img/contact-form-bg.jpg');
+  background-image: url('../img/contact-form-bg-s.jpg');
   background-repeat: no-repeat;
   background-size: cover;
     
@@ -59,7 +59,11 @@
     background-image: url('../img/icon-9.png');
     background-repeat: no-repeat;
     background-position: 30px top;
-  }  
+  }
+  
+  a {
+    color: #fff;
+  }
 }
 
 .contact__form {
@@ -67,6 +71,12 @@
 }
 
 @media @tablet-widths {
+  
+  .contact {
+    padding: 0 128px;
+    background-image: url('../img/contact-form-bg-m.jpg');
+  }
+  
   .contact__title {
     order: 1;
     width: 100%;
@@ -92,6 +102,7 @@
 @media @desktop-widths {
   .contact {
     padding: 70px 0 36px 0;
+    background-image: url('../img/contact-form-bg-l.jpg');
   }
   
   .contact__title {

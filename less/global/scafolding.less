@@ -103,9 +103,16 @@ video {
   font-style: normal;
   
   &:hover {
-    background-color: fade(@sec-color, 50%);
+    /*border-radius: 7px;*/
+    background-color: @sec-color;
+    box-shadow: 0px 0px 10px 0px fade(@sec-color, 50%);
     transition: 0.3s;
   }
+  
+  /*&:hover {
+    background-color: fade(@sec-color, 50%);
+    transition: 0.3s;
+  }*/
 }
 
 .down-btn {

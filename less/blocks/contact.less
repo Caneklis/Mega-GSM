@@ -3,6 +3,23 @@
   background-image: url('../img/contact-form-bg-s.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  
+  &--header {
+    background-color: transparent;
+    background-image: none;
+    padding: 0;
+    
+    .contact__item {
+      padding: 0;
+      background-position: 30px center;
+    }
+    
+    a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  }
     
   input,
   textarea {
@@ -68,13 +85,41 @@
 
 .contact__form {
   text-align: center;
+  
+  .rules {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 100;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 @media @tablet-widths {
   
   .contact {
-    padding: 0 128px;
+    padding: 60px 128px;
     background-image: url('../img/contact-form-bg-m.jpg');
+    
+    &--header {
+      background-color: transparent;
+      background-image: none;
+      padding: 0;
+      order: 6;
+      width: 100%;
+      text-align: left;
+      
+      .contact__item {
+        padding-left: 90px;
+      }
+      
+      a {
+        font-size: 25px;
+      }
+    }
   }
   
   .contact__title {
@@ -103,6 +148,12 @@
   .contact {
     padding: 70px 0 36px 0;
     background-image: url('../img/contact-form-bg-l.jpg');
+    
+    &--header {
+      background-color: transparent;
+      background-image: none;
+      padding: 0;
+    }
   }
   
   .contact__title {

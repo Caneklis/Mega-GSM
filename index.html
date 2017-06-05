@@ -2,14 +2,18 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Мастерская по ремонту сотовых телефонов</title>
+  <title>Mega-GSM - Мастерская по ремонту сотовых телефонов в Москве</title>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Мы предлагаем отличного качества ремонт и обслуживание мобильных телефонов по отличным ценам в Москве, за более детальной информацией обращайтесь по тел. +7 499 394-47-88">
+  <meta name="keywords" content="ремонт мобильных телефонов в москве, заказать ремонт мобильных телефонов, ремонт и обслуживание мобильных телефонов">
 </head>
 <body>
     
   <header id="main-header" class="main-header-pict-1">
+    <div class="loader"></div>
     <div class="container  container--header">
       <nav class="main-nav  main-nav--closed">
         <button class="main-nav__toggle"></button>
@@ -23,16 +27,22 @@
       </nav>
       <div class="logo"><img src="img/newlogo.png" alt="Mega-GSM" width="172" height="161"></div>
       <h1 class="main-header__title">Мастерская по <span class="main-header__title--color">ремонту</span><span class="main-header__title--size"> и обслуживанию</span> <span class="main-header__title--size-small">мобильных <span class="main-header__title--color">телефонов</span></span></h1>
-      <p class="main-header__text">Мы делаем качественно быстро и с гарантией</p>
+      <p class="main-header__text">Заберите свой обновленный смартфон уже сегодня.</p>
       <a href="#contacts" class="btn main-header__btn">Оставить заявку</a>
-      <div class="slider">
+      <div class="contact  contact--header">
+        <div class="contact__item  contact__item--phone">
+          <a href="tel:+74993944788">+7 499 394-47-88</a>
+          <a href="tel:+79264685588">+7 926 468-55-88</a>
+        </div>
+      </div>
+      <!--<div class="slider">
         <div class="slider__control">
           <p class="slider__text">1/6</p>
           <button class="slider__btn slider__btn--left"></button>
           <button class="slider__btn slider__btn--right"></button>
         </div>
         <div id="slider__picture" class="slider__picture_num_2"></div>
-      </div>
+      </div>-->
       <a href="#services" class="btn down-btn">Вниз</a>
     </div>
   </header>
@@ -42,31 +52,32 @@
     <section class="service" id="services">
       <div class="container">
         <h2 class="service__title">Наши <span>услуги</span></h2>
-        <p class="service__text">В данном блоке продемонстрированы все основные наши виды услуг по диагностике и ремонту сотовых телефонов.</p>
+        <p class="service__text">В данном блоке продемонстрированы основные виды услуг
+по диагностике и ремонту сотовых телефонов.</p>
         <ul class="service__list">
           <li class="service__item  service__item--diagnostics">
             <h3 class="service__item-title  service__item-title--diagnostics">Диагностика телефона</h3>
-            <p class="service__item-text">Это полная проверка работоспособности всех модулей и функций с последующим выявлением неисправных.</p>
+            <p class="service__item-text">Быстрая диагностика всех модулей и функций, выявление реальных неисправностей.</p>
           </li>
           <li class="service__item  service__item--display">
-            <h3 class="service__item-title  service__item-title--display">Замена<br>дисплея</h3>
-            <p class="service__item-text">Замена дисплея требуется в случаях механических воздействий - удара, надавливания и т.д.</p>
+            <h3 class="service__item-title  service__item-title--display">Замена дисплея</h3>
+            <p class="service__item-text">Устранение любых механических повреждений дисплея (удар, сильное давление).</p>
           </li>
           <li class="service__item  service__item--battery">
-            <h3 class="service__item-title  service__item-title--battery">Замена аккамулятора</h3>
-            <p class="service__item-text">Замена аккумулятора (АКБ) требуется в большинстве случаев после воздействия внешних факторов.</p>
+            <h3 class="service__item-title  service__item-title--battery">Замена аккумулятора</h3>
+            <p class="service__item-text">Устройство будет работать лучше и дольше, помимо ремонта подскажем, как и чем лучше заряжать.</p>
           </li>
           <li class="service__item  service__item--elements">
             <h3 class="service__item-title  service__item-title--elements">Замена отдельных элементов</h3>
-            <p class="service__item-text">Ремонт таких элементов как разъемов зарядки, микрофона, динамиков, а также шлейфов и др.микросхем.</p>
+            <p class="service__item-text">Разъем для зарядки и динамиков, микрофон, камера, шлейфы и другие микросхемы будут работать в полном объеме.</p>
           </li>
           <li class="service__item  service__item--water">
             <h3 class="service__item-title  service__item-title--water">Восстановление после влаги</h3>
-            <p class="service__item-text">Восстановление устройства после попадания в него влаги и возможная замена поврежденных элементов.</p>
+            <p class="service__item-text">Замена поврежденных элементов, устранение последствий коррозии, очистка микросхем.</p>
           </li>
           <li class="service__item  service__item--po">
-            <h3 class="service__item-title  service__item-title--po">Восстановление<br>ПО</h3>
-            <p class="service__item-text">Полная или частичная прошивка телефона в зависимости от модели и обновления необходимой прошивки.</p>
+            <h3 class="service__item-title  service__item-title--po">Восстановление ПО</h3>
+            <p class="service__item-text">Устройство будет работать более стабильно, разблокировка и удаление вирусов, перепрошивка. </p>
           </li>
         </ul>
       </div>
@@ -74,7 +85,7 @@
     
     <section class="action">
       <div class="container  container--action">
-        <p class="action__text"><b>Оставьте заявку прямо сейчас и получите диагностику бесплатно</b></p>
+        <p class="action__text"><b>Оставте заявку прямо сейчас и получите скидку в размере 7%.</b></p>
         <a href="#contacts" class="btn">Оставьте заявку</a>
       </div>
     </section>
@@ -149,16 +160,24 @@
       <div class="container">
         <h2 class="about__title">О <span>нас</span></h2>
         <div class="about__description">
-          <p class="about__text">Технический Центр «Mega-GSM» успешно осуществляет свою деятельность в области ремонта и обслуживания оборудования сотовой связи и компьютерного оборудования в г. Москве с 2009 года.</p>
-          <p class="about__text">На сегодняшний день компания полноценно производит ремонт оборудования сотовой связи  любой сложности в собственной оборудованной мастерской, не прибегая к посредникам, что естественным образом сказывается на конечной стоимости услуг.</p>
+          <p class="about__text"><strong>- Опыт, проверенный людьми</strong><br>
+ Более 50 000 довольных клиентов за 12 лет работы.<br>
+              <strong>- Экономим ваше время</strong><br>
+90% видов работ выполняем за 30-60 минут.<br>
+              <strong>- Оригинальные запчасти и современное оборудование</strong><br>
+Мастерская оснащена по последнему слову техники, большинство<br>процессов автоматизировано.<br>
+              <strong>- Бережное отношение к каждой детали устройства</strong><br>
+Используем лучшие ремкомплекты, чистим и натираем <br>все элементы до блеска.<br>
+              <strong>- Гарантия на услуги 35 дней</strong><br>
+Мы любим свою работу и гарантируем качество <br>каждого ремонта. </p>
           <ul class="about__list">
             <li class="about__item">Качество</li>
-            <li class="about__item">Соблюдение сроков</li>
-            <li class="about__item">Длительная гарантия</li>
+            <li class="about__item">Скорость</li>
+            <li class="about__item">Гарантия</li>
           </ul>
         </div>        
         <div class="about__photo">
-          <img src="img/2guyscreampie.jpg" alt="">
+          <img src="img/we.jpg" alt="Мастера Mega-GSM Митинский радиорынок">
         </div>
       </div>
     </section>
@@ -168,24 +187,28 @@
         <h2 class="contact__title">Наши <span>контакты</span></h2>
         <div class="contact__lists">
           <ul class="contact__list">
-          <li class="contact__item  contact__item--marker">г.Москва, Пятницкое Шоссе, вл. 18, пав. 85 (ТК Митинский радиорынок)</li>
-          <li class="contact__item  contact__item--phone"><a href="tel:+74993944788">+7 499 394-47-88</a><br>
-          <a href="tel:+79264685588">+7 926 468-55-88</a></li>
-          <li class="contact__item  contact__item--calendar">Ежедневно<br>
-          с 10:00 до 19:00</li>
-        </ul>
-        <ul class="social">
-          <li class="social__item"><a href="#" class="social__link"><img src="img/fb.png" alt=""></a></li>
-          <li class="social__item"><a href="#" class="social__link"><img src="img/inst.png" alt=""></a></li>
-          <li class="social__item"><a href="#" class="social__link"><img src="img/vk.png" alt=""></a></li>
-        </ul>        
+            <li class="contact__item  contact__item--marker">г.Москва, Пятницкое Шоссе, вл. 18, пав. 85 (ТК Митинский радиорынок)</li>
+            <li class="contact__item  contact__item--phone"><a href="tel:+74993944788">+7 499 394-47-88</a><br>
+            <a href="tel:+79264685588">+7 926 468-55-88</a></li>
+            <li class="contact__item  contact__item--calendar">Ежедневно<br>
+            с 10:00 до 19:00</li>
+          </ul>
+          <ul class="social">
+            <li class="social__item"><a href="https://vk.com/megagsmpro/" class="social__link" target="_blank"><img src="img/vk.png" alt="Мы Вконтакте"></a></li>
+            <li class="social__item"><a href="https://www.facebook.com/Mega-GSM-1171305782998896/" class="social__link"><img src="img/fb.png" alt="Мы в фейсбуке"></a></li>
+            <li class="social__item"><a href="https://www.instagram.com/megagsmpro/" class="social__link"><img src="img/inst.png" alt="Наш инстаграмм"></a></li>
+          </ul>
         </div>
-        <form action="#" class="contact__form">
-        <p class="contact__text">Для связи с нами воспользуйтесь формой заказа, приведенной или позвоните по телефону.</p>
-          <input type="text" placeholder="Ваше имя">
-          <input type="text" placeholder="Ваш телефон">
-          <textarea name="text" id="text" cols="30" rows="7" placeholder="Текст сообщения"></textarea>
-          <button type="submit" class="btn">Отправить</button>
+        
+        <form action="send.php" method="post" class="contact__form"  id="contact_form feedback-form">
+        <p class="contact__text">Для связи с нами воспользуйтесь формой заявки или позвоните по телефону.</p>
+          <input id="name" type="text" placeholder="Ваше имя" name="name">
+          <input id="phone" type="text" placeholder="Ваш телефон" name="phone">
+          <textarea name="text" id="message" cols="30" rows="7" placeholder="Ваша заявка" name="text"></textarea>
+          
+          <div class="rules">Напоминаем, подавая заявку, Вы принимаете <a href="rules.html">пользовательское соглашение.</a></div>
+          
+          <button type="submit" class="btn  send" name="button">Отправить</button>
         </form>
       </div>
     </section>
@@ -204,34 +227,51 @@
   </footer>
   
   
-  <script src="js/jquery-3.2.1.min.js" async></script>
-  <script src="js/smooth.js" async></script>
-  <script src="js/main.js" async></script>
-  <script>
-    var pict_numb = 1;
-    function get_prev_numb(numb) {
-      return numb == 1 ? 6 : (numb - 1)
-    }
-    function get_next_numb(numb) {
-      return numb == 6 ? 1 : (numb + 1)
-    }
-    function slider_change(get_func) {
-      pict_numb = get_func(pict_numb);
-      $('.slider__text').text(pict_numb + '/6');
-      $('#main-header').removeClass();
-      $('#main-header ').addClass('main-header-pict-' + pict_numb);
-      $('#slider__picture').removeClass();
-      $('#slider__picture').addClass('slider__picture_num_' + get_func(pict_numb));
-    }
-    $(document).ready(function(){
-      $('.slider__btn--left').click(function(){
-        slider_change(get_prev_numb);
-      });
-      $('.slider__btn--right').click(function(){
-        slider_change(get_next_numb);
-      });
-    });
-  </script>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/smooth.js"></script>
+  <script src="js/main.js"></script>
+  
+  
+  <!--<script>
+	var pict_numb = 1;
+	function get_prev_numb(numb) {
+		return numb == 1 ? 6 : (numb - 1)
+	}
+	function get_next_numb(numb) {
+		return numb == 6 ? 1 : (numb + 1)
+	}
+	function slider_change(get_func) {
+		pict_numb = get_func(pict_numb);
+		$('.slider__text').text(pict_numb + '/6');
+		$('#main-header').removeClass();
+		$('#main-header ').addClass('main-header-pict-' + pict_numb).show('slow');
+		$('#slider__picture').removeClass();
+		$('#slider__picture').addClass('slider__picture_num_' + get_func(pict_numb));
+	}
+	$(document).ready(function(){
+		$('.slider__btn--left').click(function(){
+			slider_change(get_prev_numb);
+		});
+		$('.slider__btn--right').click(function(){
+			slider_change(get_next_numb);
+		});
+	});
+  </script>-->
+  
+  <!-- Yandex.Metrika counter --> <script type="text/javascript"> 
+    (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44632438 = new Ya.Metrika({ id:44632438, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44632438" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99694722-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   
 </body>
 </html>

@@ -1402,6 +1402,9 @@ video {
     order: 1;
     width: 100%;
   }
+  .about__text {
+    width: 100%;
+  }
   .about__photo {
     order: 1;
     width: 50%;
